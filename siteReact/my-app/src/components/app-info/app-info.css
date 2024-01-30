@@ -98,6 +98,10 @@
     box-shadow: 1px 1px 12px 0px rgba(71, 71, 71, 0.03);
     align-items: center;
 }
+.card1:hover .infoHeaderCardText{
+    transition: 0.7s;
+    color: #3A98B2;
+}
 
 .icon {
     
