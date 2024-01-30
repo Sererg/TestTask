@@ -15,6 +15,11 @@
     max-height: 51px;
 }
 
+.headerText {
+    display: flex;
+    align-items: center;
+}
+
 .headerText ul{
     min-height: 19px;
     list-style-type: none;
@@ -37,6 +42,7 @@
     font-weight: 400;
     line-height: normal;
 }
+
 .HeaderNumberText {
     color: #142B35;
     font-family: "Work Sans";
@@ -93,14 +99,17 @@
    margin-bottom: 32px;
 
 }
+
 .buttonHeaderMobile:hover {
     background-color:#328BA4;;
     transition: 0.7s;
 }
+
 .buttonHeader:hover {
     background-color:#328BA4;;
     transition: 0.7s;
 }
+
 .burger {
     display: none;
     position: relative;
@@ -110,11 +119,13 @@
     width: 30px;
     height: 15px;
 }
+
 .burger span {
     height: 2px;
     width: 100%;
     background-color:#142B35;
 }
+
 .burger::before, .burger::after {
     content: '';
     position: absolute;
@@ -123,9 +134,11 @@
     background-color:#142B35;
 
 }
+
 .burger::before {
     top: 0;
 }
+
 .burger::after {
     bottom: 0;
 }
@@ -133,6 +146,7 @@
 .burger.active span {
     transform: scale(0);
 }
+
 .burger.active::before {
     top: 50%;
     transform: translateY(-50%);
@@ -149,6 +163,7 @@
     width: 18px;
     height: 18px;
 }
+
 .blockNumberAndButton{
     display: flex;
     flex-direction: row;
@@ -163,6 +178,7 @@
  
     
 }
+
 @media (max-width:1200px) {
     .headerText ul {
         gap: 10px;
@@ -173,6 +189,7 @@
     }
    
 }
+
 @media (max-width:992px) {
     .burger {
         display: flex;
@@ -237,12 +254,15 @@
     }
     
 }
+
 @media (max-width:768px) {
     
 }
+
 @media (max-width:480px) {
     
 }
+
 @media (max-width:320px) {
     .MainIcon {
         width: 97px;
