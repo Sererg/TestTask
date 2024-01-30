@@ -18,7 +18,7 @@ const AppRecommendations = () => {
                         <li className='blogCardMediumText'>How to move during COVID</li>
                         <li className='blogCardFooterText'>
                             It depends on the size of your room It depends <br/>
-                            the size of your room It depends on the size <br/>
+                            on the size of your room It depends on the size <br/>
                             of your room</li>
                     </div>
 
@@ -30,7 +30,7 @@ const AppRecommendations = () => {
                         <li className='blogCardMediumText'>How to move during COVID</li>
                         <li className='blogCardFooterText'>
                             It depends on the size of your room It depends <br/>
-                            the size of your room It depends on the size <br/>
+                            on the size of your room It depends on the size <br/>
                             of your room</li>
                     </div>
                     
@@ -42,7 +42,7 @@ const AppRecommendations = () => {
                         <li className='blogCardMediumText'>How to move during COVID</li>
                         <li className='blogCardFooterText'>
                             It depends on the size of your room It depends <br/>
-                            the size of your room It depends on the size <br/>
+                            on the size of your room It depends on the size <br/>
                             of your room</li>
                     </div>
                     

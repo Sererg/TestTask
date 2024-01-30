@@ -66,6 +66,8 @@
     height: 501px;
     border-radius: 15px;
     background: #FFF;
+    display: flex;
+    flex-direction: column;
 
     box-shadow: 1px 1px 12px 0px rgba(71, 71, 71, 0.03);
 }
@@ -78,6 +80,8 @@
     height: 501px;
     border-radius: 5px;
     background: #FFF;
+    display: flex;
+    flex-direction: column;
 
     box-shadow: 1px 1px 12px 0px rgba(71, 71, 71, 0.03);
 }
@@ -93,6 +97,8 @@
     height: 501px;
     border-radius: 5px;
     background: #FFF;
+    display: flex;
+    flex-direction: column;
 
     box-shadow: 1px 1px 12px 0px rgba(71, 71, 71, 0.03);
 }
@@ -122,7 +128,7 @@
     font-size: 18px;
     line-height: 30px;
     color: #142B35;
-    letter-spacing: -0.18px;
+    letter-spacing: 0.18px;
     margin-top: 8px;
 }
 .blogCardFooterText{
