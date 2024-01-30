@@ -21,8 +21,26 @@ const AppInfo = () => {
                         arrive home</p>
                 </div>
                 <div className="card1">
-                    <img src="img/icon1.png" alt="residential" className="icon"/>
-                    <p className="infoHeaderCardText">Residential Moving</p>
+                    <img src="img/icon2.png" alt="residential" className="icon"/>
+                    <p className="infoHeaderCardText">Commerical Moving</p>
+                    <p className="infoMediumCardText">
+                        Managing every detail, big or small,<br/>
+                        to help you have the smoothest<br/>
+                        move possible. We’ll help you<br/>
+                        arrive home</p>
+                </div>
+                <div className="card1">
+                    <img src="img/icon3.png" alt="residential" className="icon"/>
+                    <p className="infoHeaderCardText">Packing and Unpacking services</p>
+                    <p className="infoMediumCardText">
+                        Managing every detail, big or small,<br/>
+                        to help you have the smoothest<br/>
+                        move possible. We’ll help you<br/>
+                        arrive home</p>
+                </div>
+                <div className="card1">
+                    <img src="img/icon4.png" alt="residential" className="icon"/>
+                    <p className="infoHeaderCardText">Furniture disassembly service</p>
                     <p className="infoMediumCardText">
                         Managing every detail, big or small,<br/>
                         to help you have the smoothest<br/>
@@ -31,7 +49,7 @@ const AppInfo = () => {
                 </div>
                 <div className="card1">
                     <img src="img/icon1.png" alt="residential" className="icon"/>
-                    <p className="infoHeaderCardText">Residential Moving</p>
+                    <p className="infoHeaderCardText">Long-Distance Movers</p>
                     <p className="infoMediumCardText">
                         Managing every detail, big or small,<br/>
                         to help you have the smoothest<br/>
@@ -39,26 +57,8 @@ const AppInfo = () => {
                         arrive home</p>
                 </div>
                 <div className="card1">
-                    <img src="img/icon1.png" alt="residential" className="icon"/>
-                    <p className="infoHeaderCardText">Residential Moving</p>
-                    <p className="infoMediumCardText">
-                        Managing every detail, big or small,<br/>
-                        to help you have the smoothest<br/>
-                        move possible. We’ll help you<br/>
-                        arrive home</p>
-                </div>
-                <div className="card1">
-                    <img src="img/icon1.png" alt="residential" className="icon"/>
-                    <p className="infoHeaderCardText">Residential Moving</p>
-                    <p className="infoMediumCardText">
-                        Managing every detail, big or small,<br/>
-                        to help you have the smoothest<br/>
-                        move possible. We’ll help you<br/>
-                        arrive home</p>
-                </div>
-                <div className="card1">
-                    <img src="img/icon1.png" alt="residential" className="icon"/>
-                    <p className="infoHeaderCardText">Residential Moving</p>
+                    <img src="img/icon6.png" alt="residential" className="icon"/>
+                    <p className="infoHeaderCardText">Storage Units</p>
                     <p className="infoMediumCardText">
                         Managing every detail, big or small,<br/>
                         to help you have the smoothest<br/>
