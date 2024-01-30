@@ -147,15 +147,38 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-}
+    }
+    .informatioServises {
+
+        height: auto;
+    }
 
 }
 @media (max-width:768px) {
    
 }
 @media (max-width:480px) {
+    .icon {
+        width: 40px;
+        height: 40px;
+        margin-top: 32px;
+    }
    
+    .cardSlide {
+        height: 251px;
+        width: 288px;
+    }
 
+    .informatioServises {
+        margin-top: 40px;
+    }
+    .infoHeaderCardText {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    .infoMediumCardText {
+        font-size: 14px;
+    }
 }
 @media (max-width:320px) {
 

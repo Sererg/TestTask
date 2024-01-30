@@ -57,13 +57,21 @@
     gap: 16px;
     margin-top: 40px;
 }
+.textBlogGroup:hover .blogCardMediumText{
+    transition: 0.7s;
+    color: #3A98B2;
+}
 .blogCard1 {
     width: 429px;
     height: 501px;
-    border-radius: 5px;
+    border-radius: 15px;
     background: #FFF;
 
     box-shadow: 1px 1px 12px 0px rgba(71, 71, 71, 0.03);
+}
+.blogCard2:hover ~ .blogCardMediumText{
+    transition: 0.7s;
+    color: #3A98B2;
 }
 .blogCard2 {
     width: 429px;
@@ -73,6 +81,13 @@
 
     box-shadow: 1px 1px 12px 0px rgba(71, 71, 71, 0.03);
 }
+.blogCard3:hover ~ .blogCardMediumText{
+     
+        transition: 0.7s;
+        color: #3A98B2;
+    
+}
+
 .blogCard3 {
     width: 429px;
     height: 501px;

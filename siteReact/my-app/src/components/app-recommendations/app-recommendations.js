@@ -11,7 +11,7 @@ const AppRecommendations = () => {
                 <button className='buttonRecomendation'>View All</button>
             </div>
             <div className="blogGroup">
-                <div className="blogCard1">
+                <div className="blogCard1" id="blogCard1">
                     <img src="img/blog.png" className="blogImg" alt="blog"/>
                     <div className="textBlogGroup">
                         <li className='dateBlog'>December 16, 21</li>
