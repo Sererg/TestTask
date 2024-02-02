@@ -239,6 +239,7 @@
 
     .buttonHeaderMobile {
         display:block;
+        margin-right: 73%;
     }
     .buttonHeader {
         display: none;

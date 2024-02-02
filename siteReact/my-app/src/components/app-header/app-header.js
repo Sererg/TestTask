@@ -1,4 +1,6 @@
 import './app-header.css';
+import MainIcon from '../../assets/images/img/Mainicon.png';
+import phone from '../../assets/images/img/phone.png';
 
 
 const AppHeader = () => {
@@ -8,7 +10,7 @@ const AppHeader = () => {
     }
     return (
         <div className="app-header">
-            <img src="img/Mainicon.png" alt="ALLIANCE MOVING & STORAGE" className="MainIcon"/>
+            <img src={MainIcon} alt="ALLIANCE MOVING & STORAGE" className="MainIcon"/>
             <nav className="headerText">
                 <ul>
                     <li>Local Movers</li>
@@ -21,7 +23,7 @@ const AppHeader = () => {
             </nav>
             <div className="blockNumberAndButton">
                 <div className="number">
-                    <img src="img/phone.png" alt="Phone" className="phone"/>
+                    <img src={phone} alt="Phone" className="phone"/>
                     <p className="HeaderNumberText">847-378-4949</p>
                 </div>
                 <button className="buttonHeader"> Get a Quote</button>
