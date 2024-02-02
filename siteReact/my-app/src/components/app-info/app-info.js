@@ -70,26 +70,3 @@ const AppInfo = () => {
         
     )}
 export default AppInfo;
-
-/* <div className="card1">
-<img src="img/icon1.png" alt="residential" className="icon"/>
-<p className="infoHeaderCardText">Long-Distance Movers</p>
-<p className="infoMediumCardText">
-    Managing every detail, big or small,<br/>
-    to help you have the smoothest<br/>
-    move possible. We’ll help you<br/>
-    arrive home</p>
-</div>
-<div className="card1">
-<img src="img/icon6.png" alt="residential" className="icon"/>
-<p className="infoHeaderCardText">Storage Units</p>
-<p className="infoMediumCardText">
-    Managing every detail, big or small,<br/>
-    to help you have the smoothest<br/>
-    move possible. We’ll help you<br/>
-    arrive home</p>
-</div> 
-
-
-              
-*/
