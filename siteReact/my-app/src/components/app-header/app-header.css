@@ -239,7 +239,7 @@
 
     .buttonHeaderMobile {
         display:block;
-        margin-right: 73%;
+        margin-right: 45%;
     }
     .buttonHeader {
         display: none;
@@ -262,7 +262,9 @@
 }
 
 @media (max-width:480px) {
-    
+    .buttonHeaderMobile {
+        margin-right: 73%;
+    }
 }
 
 @media (max-width:320px) {
