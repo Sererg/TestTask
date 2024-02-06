@@ -1,4 +1,6 @@
 import './app-register-panel.css';
+import locationPin from '../../assets/images/img/locationPin.png';
+import locationPinRhone from '../../assets/images/img/locationPinRhone.png';
 
 const AppRegisterPanel = () => {
     return (
@@ -16,15 +18,15 @@ const AppRegisterPanel = () => {
                 </div>
                 <div className="contactInformation">
                     <div className="block">
-                        <img src="img/locationPin.png" className= "locationPin" alt="locationPin" />
+                        <img src={locationPin} className= "locationPin" alt="locationPin" />
                         <p className="contactInformationText">3201 Tollview Drive Rolling Meadows, IL 60008</p>
                     </div>
                     <div className="block">
-                        <img src="img/locationPin.png" className= "locationPin" alt="locationPin" />
+                        <img src={locationPin} className= "locationPin" alt="locationPin" />
                         <p className="contactInformationText">4305 N. Lincikn Ave Chicago, IL 60618</p>
                     </div>
                     <div className="block">
-                        <img src="img/locationPinRhone.png" className= "locationPin" alt="locationPin" />
+                        <img src={locationPinRhone} className= "locationPin" alt="locationPinRhone" />
                         <p className="contactInformationText">(847) 378-4949</p>
                     </div>
                 </div>    

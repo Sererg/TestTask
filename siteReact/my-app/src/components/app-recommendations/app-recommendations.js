@@ -38,7 +38,7 @@ const AppRecommendations = () => {
             </div>
             <RecommendationsSlider data={recommendationSliderData}/>
             <div className="blogCard2">
-                    <img src="img/blog.png" className="blogImg" alt="blog"/>
+                    <img src={blog} className="blogImg" alt="blog"/>
                     <div className="textBlogGroup">
                         <li className='dateBlog'>December 16, 21</li>
                         <li className='blogCardMediumText'>How to move during COVID</li>

@@ -1,10 +1,11 @@
 import './app-logo.css';
+import mainImage from '../../assets/images/img/firstScreen.jpg';
 
 const AppLogo = () => {
     return (
         <div className="app-logo">
                 <div className="conteinerScreen">
-                    <img src="img/firstScreen.jpg" className="mainImage" alt="mainImage"/>
+                    <img src={mainImage} className="mainImage" alt="mainImage"/>
                     <div className="imgDescription">
                         <li className="logoText1">
                             Looking For A Professional Moving <br/>
