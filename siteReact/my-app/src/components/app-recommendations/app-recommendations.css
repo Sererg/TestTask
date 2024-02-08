@@ -1,6 +1,5 @@
 .app-recommendations{
     max-width: 1440px;
-    min-height: 767px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +81,8 @@
     background: #FFF;
     display: none;
     flex-direction: column;
-
+    position: relative;
+    overflow: hidden;
     box-shadow: 1px 1px 12px 0px rgba(71, 71, 71, 0.03);
 }
 
@@ -95,6 +95,9 @@
 
 .textBlogGroup {
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
 }
 .textBlogGroup ul {
@@ -188,6 +191,10 @@
         margin-left: 16px;
     }
     .blogCard1{
+        width: 288px;
+        height: 280px;
+    }
+    .blogCard2{
         width: 288px;
         height: 280px;
     }
