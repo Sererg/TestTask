@@ -13,9 +13,9 @@ const Login = (props) => {
         <div className='auth-form-container'>
             <form className='login-form' onSubmit={handleSubmit}>
                 <label htmlFor="email">email</label>
-                <input value={email} type="email" placeholder='youremail@gmail.com' id='email' name='email' />
+                <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder='youremail@gmail.com' id='email' name='email' />
                 <label htmlFor="password">password</label>
-                <input value={password} type="password" placeholder='********' id='password' name='password' />
+                <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder='********' id='password' name='password' />
                 <button type='submit'>Log In</button>
             </form>
             <button  className="link-btn" onClick={() => props.onFormSwitch('register')}>Нет аккаунта? Зарегистрируйтесь здесь.</button>
